@@ -1,0 +1,87 @@
+/* estilos gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+
+}
+
+/* fim estilos gerais */
+
+/* estilos header */
+
+header .links{
+    display: flex;
+    align-items: center;}
+
+header .links ul{
+    gap: 34px;
+}
+
+header.container .icons .icon{
+    width: 45px;
+    height: 45px;
+}
+
+header.container .icons .cart {
+    padding: 13px 20px;
+    background-color: black;
+    border-radius: 22px 22px;
+    color: white;
+    margin-left: 30px;
+}
+
+header.container .icons .icon.user{
+    margin-left: 30px;
+}
+
+/* fim estilos header */
+
+/* estilos section collections */
+/* .input-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.input-icon input {
+    padding: 5px 5px;
+    text-align: right;
+    max-width: 100%;
+    width: 320px;
+}
+
+.input-icon .search-icon {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+} */
+
+
+section.container .input-icon{
+   display: inline-flex;
+    background-color: #D9D9D9;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section.container .input-icon img{
+    padding: 0 10px;
+}
+
+section.container .input-icon input{
+    padding: 15px 15px;
+    max-width: 100%;
+    width: 320px;
+    border: none;
+    background-color: #D9D9D9;
+    outline: none;
+}

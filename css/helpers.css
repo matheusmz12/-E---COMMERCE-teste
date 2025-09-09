@@ -1,0 +1,12 @@
+
+.container{
+    padding: 15px 50px;
+}
+
+
+
+.flex{display: flex;}
+
+.aling-center{align-items: center;}
+
+.justify-between{justify-content: space-between;}
